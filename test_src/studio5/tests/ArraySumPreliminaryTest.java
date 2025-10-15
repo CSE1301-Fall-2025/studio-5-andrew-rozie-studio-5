@@ -44,4 +44,13 @@ public class ArraySumPreliminaryTest {
 		int expected = 20;
 		assertEquals(expected, actual);
 	}
+	@Test
+	public void testArrayLength5() {
+		int[] values = { 1, 3, 7, 8 };
+		int actual = Methods.arraySum(values);
+		int expected = 19;
+		assertEquals(expected, actual);
+	}
 }
+
+
